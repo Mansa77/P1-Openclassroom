@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- En-tête de la page -->
+
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!--  <meta name="viewport" content="width=device-width">-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>WebAgency</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>var ml = { timelines: {}};</script>
+  
+  </head>
+  <!--barre de navigation-->
+  <body>
+    <header>
+      <nav class="menu">
+        <img src="images/logo.png" alt="Logo" class="img-logo" />
+        <div class="menu-nav">
+          <a href="#accueil" class="element-nav">Accueil</a>
+          <a href="#services" class="element-nav">Services</a>
+          <a href="#portfolio" class="element-nav">Portfolio</a>
+          <a href="#contact" class="element-nav">Contact</a>
+        </div>
+        <!-- Toggle -->
+        <label class="switch" id="switch" > 
+                <input type="checkbox">
+                <span class="slider round" onclick="myFunction()"></span>
+              </label>
+      </nav>
+    </header>
+
+
+
+    
+
+
+    <!--fin barre de navigation-->
+    <!--debut accueil-->
+    <span class="anchor" id="accueil"></span>
+    <section class="accueil">
+      <div class="container-ac">
+        <img src="images/bg1.jpg " alt="image" class="img-acceuil" />
+        <div class="web-ac">
+          <!-- <div class="arrow-left"><i class="fas fa-angle-left fa-2x"></i></div>
+          <div class="arrow-right"></div>
+            <i class="fas fa-angle-right fa-2x"></i>
+          </div> -->
+
+          <div class="txt-ac">
+            <div class="title-img">
+          <div class="moving-letters">
+                <h1 id="webag" class="ml2">L'AGENCE DE TOUS VOS PROJETS !</h1>
+                </div>
+                </div>
+          </div>
+            
+            <p style="padding-right: 34%; margin-top: 5%">
+              Vous avez un projet web ? La Web Agency vous aide à le réaliser !
+            </p>
+            <input class="styled2" type="button" value="Plus d'infos" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fin accueil-->
+    <!--debut service-->
+    <span class="anchor" id="services"></span>
+    <section class="services">
+      <div class="txt-service">
+        <h2>NOS SERVICES</h2>
+        <div class="dot">
+          <div class="trait-gauche"></div>
+          <span class="halo"><i id="proj" class="fas fa-circle clr"></i></span>
+          <div class="trait-droite"></div>
+        </div>
+        <p>
+          Nous avons à vous proposer divers services dans lesquels nous
+          excédons, par nos années d'expérience nous pouvons vous garantir une
+          prestation des plus rapides et efficaces.
+        </p>
+        <p id="txts">Dans les domaines suivants:</p>
+      </div>
+
+      <div class="general-serv">
+        <img src="images/main-feature.gif" alt="image" class="imageflottante" />
+        <div class="serv-txt">
+          <div class="ux-desing">
+            <div class="logo1">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-chart-line fak-2x clr" id="cercle"></i>
+                <span class="dot" id="dot"></span>
+              </span>
+            </div>
+            <div class="titre-ux">
+              <h2>UX design</h2>
+              <span>
+                UX designer (expérience utilisateur) consiste à
+                anticiper les attentes et les besoins des utilisateurs.<br />
+                Afin de rendre votre application accessible, facile à prendre en
+                main et surtout efficace.</span
+              >
+            </div>
+          </div>
+          <div class="ui-desing">
+            <div class="logo2">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-cubes fak-2x clr" id="cercle1"></i>
+                <span class="dot" id="dot1"></span>
+              </span>
+            </div>
+            <div class="titre-ui">
+              <h2>UI design</h2>
+              <span
+                ><strong>UI designer</strong> (interface utilisateur) , cela
+                permet de créer des interfaces intuitives.<br />
+                Qui répondent aux besoins des utilisateurs et qui s'adaptent à
+                différents supports.
+              </span>
+            </div>
+          </div>
+          <div class="seo">
+            <div class="logo3">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-chart-pie fak-2x clr" id="cercle2"></i>
+                <span class="dot" id="dot2"></span>
+              </span>
+            </div>
+            <div class="titre-seo">
+              <h2>SEO</h2>
+              <span
+                ><strong>SEO</strong>(Search Engine Optimization) vous
+                bénéficierez des meilleures méthodes et techniques de
+                réferencements.<br />
+                Afin de positionner votre site ou application en première
+                position sur les moteurs de recherche.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fin de services-->
+    <!--Debut portfolio-->
+    <span class="anchor" id="portfolio"></span>
+    <section class="portfolio">
+      <h2>NOS PROJETS</h2>
+      <div class="dot">
+        <div class="trait-gauche"></div>
+        <span class="halo"><i class="fas fa-circle clr"></i></span>
+        <div class="trait-droite"></div>
+      </div>
+      <p>
+        Voici différents projets qui ont été réaliser par nos équipes, dans
+        divers domaines. <br /><br />
+      </p>
+
+      <div class="nav-projet">
+        <div class="nvp1">
+          <a href="$">All Works</a>
+          <div class="arrow-down"></div>
+        </div>
+        <div class="nvp2">
+          <a href="$">Creative</a>
+          <div class="arrow-down"></div>
+        </div>
+        <div class="nvp3">
+          <a href="$">Corporate</a>
+          <div class="arrow-down"></div>
+        </div>
+        <div class="nvp4">
+          <a href="$" class="nvp4">Portfolio</a>
+          <div class="arrow-down"></div>
+        </div>
+      </div>
+
+      <div class="servcont">
+        <div class="divimgC">
+          <figure>
+            <img src="images/portfolio/01.jpg" alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour"><i class="far fa-eye "></i></span>
+                <h2>L'opticien</h2>
+                <p>Il y en a pour tous les gouts!</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/02.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour1"><i class="far fa-eye "></i></span>
+                <div><h2>Rabbits Gifs</h2></div>
+                <div><p>Venez tenter votre chances!</p></div>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/03.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour2"><i class="far fa-eye "></i></span>
+                <h2>Pompadour</h2>
+                <p>Une marque à votre image.</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/04.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour3"><i class="far fa-eye "></i></span>
+                <h2>La Petition</h2>
+                <p>Faisons bouger les choses!</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/06.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour4"><i class="far fa-eye "></i></span>
+                <h2>Voyage Rapide</h2>
+                <p>Le monde à portée de main.</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/07.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour5"><i class="far fa-eye "></i></span>
+                <h2>fusée ariane</h2>
+                <p>Un blog dans les étoiles</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/08.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour6"><i class="far fa-eye "></i></span>
+                <h2>jolie bazar</h2>
+                <p>il y a de tout!</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/portfolio/full.jpg " alt="image" class="imgserv" />
+            <figcaption>
+              <div class="itemsporfolio">
+                <span id="contour7"><i class="far fa-eye "></i></span>
+                <h2>Good Burger</h2>
+                <p>Le burger parmi les burgers!</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--fin de portfolio-->
+    <!--debut contact-->
+    <span class="anchor" id="contact"></span>
+    <section class="contact">
+      <div class="map-form">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d551.6755938591582!2d2.3495616266416643!3d48.872964923105286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1547719484727"
+          allowfullscreen
+        ></iframe>
+        <!-- <div class="Bleu" title="GoogleMap"></div> -->
+        <form class="formulaire" method="post" action="traitement.php">
+          <div class="txtform">
+            <h2>Contact</h2>
+            <p id="titleform">Web Agency SAS</p>
+            <P>25 Rue d'Hauteville 75010 Paris</P>
+            <p>Tel: 01.02.03.05.06</p>
+          </div>
+          <div class="saisie">
+            <input type="text" name="pseudo" placeholder="Nom" />
+            <input type="text" name="pseudo" placeholder="Email" />
+            <input type="text" name="pseudo" placeholder="Sujet" />
+            <textarea placeholder="Message" rows="5" cols="45"></textarea>
+            <button type="button" class="button">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+            <div id="footer"></div>
+          </footer>
+    <script src="anime.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+    <!--fin de contact-->
+</html>
