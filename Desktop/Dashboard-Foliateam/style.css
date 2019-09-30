@@ -1,0 +1,1527 @@
+* {
+  font-family: "Lexend Giga", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /* background: url(img/background-3.png); */
+  /* background: url(img/try2.png); */
+  background-size: cover;
+}
+
+.logo-foliateam {
+  margin: 0% 0% 0% 1%;
+  width: 15%;
+}
+.foliateam {
+  z-index: 999;
+  width: 100%;
+  height: 16%;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background: #343a40;
+  /* background: rgb(0, 0, 128); */
+  color: white;
+  border-bottom: 5px solid black;
+}
+.title {
+  position: relative;
+  font-size: 30px;
+  -webkit-font-size: 20px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  /* border: 2px solid; */
+}
+/* Contact */
+.navlien {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 75%;
+  width: 45%;
+
+  /* border: 2px solid; */
+}
+.navlien a {
+  font-size: 13px;
+}
+.acces {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding-right: 2%;
+  padding-bottom: 10%;
+  height: 10%;
+}
+.ac {
+  margin-bottom: unset;
+}
+.wipsos {
+  height: 70%;
+  padding: 0 2% 0 2%;
+}
+.tel {
+  height: 70%;
+  padding-left: 2%;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Navbarre du site */
+.menu {
+  /* background: url(img/background-3.png); */
+  background-color: rgb(143, 9, 76);
+}
+.menu {
+  z-index: 998;
+  position: fixed;
+  top: 4%;
+  height: 100%;
+  width: 20%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+/* Bouton fermeture */
+.fermeture {
+  position: relative;
+  z-index: 1000;
+  top: 0;
+  padding: 2%;
+}
+/* Bouton1 */
+.btn-one {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-one span {
+  font-weight: bold;
+  color: white;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: 1; */
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-one::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: 1; */
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-one:hover::before {
+  cursor: pointer;
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-one:hover::after {
+  cursor: pointer;
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Bouton 2 */
+.btn-two {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-two span {
+  font-weight: bold;
+  color: white;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-two::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-two:hover::before {
+  cursor: pointer;
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-two:hover::after {
+  cursor: pointer;
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Bouton 3 */
+
+.btn-three {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-three span {
+  font-weight: bold;
+  color: white;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-three::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-three:hover::before {
+  cursor: pointer;
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-three:hover::after {
+  cursor: pointer;
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Bouton 4 */
+
+.btn-four {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-four span {
+  font-weight: bold;
+  color: white;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-four::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-four::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-four:hover::before {
+  cursor: pointer;
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-four:hover::after {
+  cursor: pointer;
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+/* Bouton 5 */
+
+.btn-five {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-five span {
+  font-weight: bold;
+  color: white;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-five::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-five::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-five:hover::before {
+  cursor: pointer;
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-five:hover::after {
+  cursor: pointer;
+
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Bouton 6 */
+
+.btn-six {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  margin-bottom: 20%;
+}
+.btn-six span {
+  font-weight: bold;
+  color: white;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-six::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-six::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-six:hover::before {
+  cursor: pointer;
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-six:hover::after {
+  cursor: pointer;
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.menu img {
+  height: 20%;
+  width: 65%;
+  padding-top: 25%;
+  padding-right: 4%;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.form-inline {
+  margin-left: 10%;
+}
+
+.form-inline .form-control {
+  width: 70% !important;
+  margin-left: 10%;
+}
+
+/* /navbarre */
+
+.google {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 22%;
+  padding-top: 15%;
+  margin-left: 21%;
+  width: 30%;
+}
+.logo-google {
+  width: 35%;
+}
+.recherche {
+  padding-top: 2%;
+}
+/* Cartes */
+.cards {
+  height: 37%;
+  width: 70%;
+  margin-top: 9%;
+  margin-left: 25%;
+  /* border: 2px solid; */
+  display: flex;
+}
+.card {
+  background: rgb(50, 151, 50) !important;
+  opacity: 0.7;
+  width: 70%;
+  margin: 1%;
+}
+.card:hover {
+  opacity: 1;
+  transition: 1.5s;
+}
+.card-img {
+  z-index: 999999;
+  opacity: 1;
+  height: 90%;
+}
+.card-1 {
+  height: 80%;
+  padding: 4% 0 0 25%;
+}
+.card a {
+  border-radius: 25%;
+  height: 50%;
+}
+.card h5 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.card span {
+  position: relative;
+  background: rgba(255, 0, 0, 0.699);
+  color: white;
+  padding: 1% 0;
+  text-align: center;
+  border-radius: 8px;
+  display: block;
+  margin-top: 7%;
+  opacity: 0;
+  transition: 1s;
+}
+.card-aide:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -5px;
+  background: rgba(255, 0, 0, 0.699);
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.interrogation {
+  height: 10%;
+  width: 15%;
+  position: relative;
+  left: 42%;
+  cursor: pointer;
+}
+
+.card:hover > .card-aide {
+  opacity: 1;
+}
+span {
+  margin-bottom: 1%;
+  z-index: 9999999;
+  font-size: 15px;
+}
+/* /Cartes */
+/* Widget meteo */
+#div_widget_meteo_paris {
+  width: 30%;
+  padding-left: 14%;
+}
+
+/* Category Name */
+
+#category {
+  border-radius: 10px;
+  display: none;
+  border: 2px solid rgba(220, 220, 220, 0.5);
+  padding: 1%;
+  width: 35%;
+  background: rgba(220, 220, 220, 0.5);
+}
+#category p {
+  padding-left: 20%;
+}
+#category img {
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
+}
+h3 {
+  text-align: center;
+  width: 100%;
+}
+.c1-2 {
+  /* border: 2px solid; */
+  padding: 1%;
+  padding-left: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.c3-4 {
+  /* border: 2px solid; */
+  padding: 1%;
+  padding-left: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.c5-6 {
+  margin-bottom: 5%;
+  /* border: 2px solid; */
+  padding: 1%;
+  padding-left: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Infobulle Category Commerce carte 1 Lien1 */
+
+.aide {
+  transform: scale(0) rotateX(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.aide::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.lien1:hover > .aide {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien2 */
+.lien2 {
+  margin-bottom: 1%;
+}
+.aide1 {
+  transform: scale(0) rotateY(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.aide1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.lien2:hover > .aide1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien 3 */
+
+.lien3 {
+  margin-bottom: 3%;
+}
+.aide2 {
+  transform: scale(0) rotate(-180deg);
+  position: absolute;
+  background: #2e3048;
+
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.aide2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.lien3:hover > .aide2 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Lien 4 */
+
+.lien4 {
+  margin-bottom: 3%;
+}
+.aide3 {
+  transform: scale(0) rotateX(-1200deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.aide3::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.lien4:hover > .aide3 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Category 2 Back Office */
+/* Infobulle Category 2 Back Office*/
+
+.help {
+  transform: scale(0) rotateX(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.help::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.Lien1:hover > .help {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien2 */
+.Lien2 {
+  margin-bottom: 1%;
+}
+.help1 {
+  transform: scale(0) rotateY(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.help1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.Lien2:hover > .help1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien 3 */
+
+.Lien3 {
+  margin-bottom: 3%;
+}
+.help2 {
+  transform: scale(0) rotate(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.help2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.Lien3:hover > .help2 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Lien 4 */
+
+.Lien4 {
+  margin-bottom: 3%;
+}
+.help3 {
+  transform: scale(0) rotateX(-1200deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.help3::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.Lien4:hover > .help3 {
+  transform: scale(1) rotate(0deg);
+}
+/* Infobulle Category 3 Support Opérateur*/
+
+.Help {
+  transform: scale(0) rotateX(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.Help::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIen1:hover > .Help {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien2 */
+.LIen2 {
+  margin-bottom: 1%;
+}
+.Help1 {
+  transform: scale(0) rotateY(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.Help1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIen2:hover > .Help1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien 3 */
+
+.LIen3 {
+  margin-bottom: 3%;
+}
+.Help2 {
+  transform: scale(0) rotate(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.Help2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIen3:hover > .Help2 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Lien 4 */
+
+.LIen4 {
+  margin-bottom: 3%;
+}
+.Help3 {
+  transform: scale(0) rotateX(-1200deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.Help3::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIen4:hover > .Help3 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Infobulle Category 4 Technicien Expert*/
+
+.HElp {
+  transform: scale(0) rotateX(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElp::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEn1:hover > .HElp {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien2 */
+.LIEn2 {
+  margin-bottom: 1%;
+}
+.HElp1 {
+  transform: scale(0) rotateY(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElp1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEn2:hover > .HElp1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien 3 */
+
+.LIEn3 {
+  margin-bottom: 3%;
+}
+.HElp2 {
+  transform: scale(0) rotate(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElp2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEn3:hover > .HElp2 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Lien 4 */
+
+.LIEn4 {
+  margin-bottom: 3%;
+}
+.HElp3 {
+  transform: scale(0) rotateX(-1200deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElp3::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEn4:hover > .HElp3 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Infobulle Category 5 Anonyme*/
+
+.HElP {
+  transform: scale(0) rotateX(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElP::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN1:hover > .HElP {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien2 */
+.LIEN2 {
+  margin-bottom: 1%;
+}
+.HElP1 {
+  transform: scale(0) rotateY(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElP1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN2:hover > .HElP1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien 3 */
+
+.LIEN3 {
+  margin-bottom: 3%;
+}
+.HElP2 {
+  transform: scale(0) rotate(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElP2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN3:hover > .HElP2 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Lien 4 */
+
+.LIEN4 {
+  margin-bottom: 3%;
+}
+.HElP3 {
+  transform: scale(0) rotateX(-1200deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HElP3::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN4:hover > .HElP3 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Infobulle Category 6 Mitel */
+.HELP-1 {
+  transform: scale(0) rotateX(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HELP-1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN1-1:hover > .HELP-1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien2 */
+.LIEN2-1 {
+  margin-bottom: 1%;
+}
+.HELP1-1 {
+  transform: scale(0) rotateY(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HELP1_1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN2-1:hover > .HELP1-1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Lien 3 */
+
+.LIEN3-1 {
+  margin-bottom: 3%;
+}
+.HELP2-1 {
+  transform: scale(0) rotate(-180deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HELP2-1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN3-1:hover > .HELP2-1 {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Lien 4 */
+
+.LIEN4-1 {
+  margin-bottom: 3%;
+}
+.HELP3-1 {
+  transform: scale(0) rotateX(-1200deg);
+  position: absolute;
+  background: #2e3048;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 1s;
+  margin-left: 1%;
+}
+.HELP3-1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #2e3048;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  left: -26px;
+}
+.LIEN4-1:hover > .HELP3-1 {
+  transform: scale(1) rotate(0deg);
+}
+/* Back to top */
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1920px) {
+  .menu {
+    width: 15%;
+  }
+  .menu img {
+    margin-top: 15%;
+  }
+  .recherche {
+    padding: 0;
+    padding-right: 18%;
+  }
+  .title {
+    left: 0%;
+    width: 75%;
+    font-size: 30px;
+  }
+  .title1 {
+    padding: 0;
+    margin: 0;
+  }
+  .logo-foliateam {
+    width: 15%;
+    margin: 0;
+  }
+  .wipsos {
+    margin-bottom: 1%;
+  }
+  .btn-six {
+    margin-bottom: 60%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .menu {
+    width: 20%;
+  }
+  .logo-foliateam {
+    width: 15%;
+  }
+  .title1 {
+    margin-top: 3%;
+  }
+  .title {
+    width: 80%;
+    font-size: 30px;
+  }
+  .menu img {
+    margin-top: 10%;
+  }
+  .btn-six {
+    margin-bottom: 60%;
+  }
+  .wipsos {
+    margin: 0;
+  }
+  .tel {
+    font-size: 16px;
+  }
+  .card-1 {
+    width: 75%;
+    padding-right: 2%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .menu img {
+    margin-top: 14%;
+  }
+  .logo-foliateam {
+    margin: 0% 0% 0% 3%;
+    width: 15%;
+  }
+  .title1 {
+    padding-bottom: 2%;
+  }
+  .title {
+    left: 5%;
+    font-size: 30px;
+  }
+  .recherche {
+    padding-left: 1%;
+  }
+  .navlien {
+    margin-right: 5%;
+    /* border: 2px solid; */
+  }
+  .tel {
+    padding-left: 2%;
+  }
+  .btn-six {
+    margin-bottom: 60%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .logo-foliateam {
+    width: 15%;
+  }
+  .title1 {
+    font-size: 10px;
+    width: 30%;
+    padding: 0;
+  }
+  .title {
+    font-size: 24px;
+    width: 70%;
+  }
+  .tel {
+    padding: 0;
+  }
+  .navlien {
+    width: 70%;
+    margin-top: 1%;
+    margin-right: 2%;
+  }
+  .acces {
+    font-size: 12px;
+    width: 35%;
+  }
+  .ac {
+    font-size: 12px;
+    margin-bottom: unset;
+  }
+  .wipsos {
+    font-size: 12px;
+    padding: 0 2% 0 2%;
+  }
+  .tel {
+    font-size: 12px;
+    height: 70%;
+    padding-left: 2%;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+@media screen and (max-width: 1152px) {
+  .logo-foliateam {
+    width: 15%;
+  }
+  .title1 {
+    font-size: 10px;
+  }
+
+  .title {
+    padding-left: 2%;
+    font-size: 26px;
+    width: 75%;
+  }
+
+  .navlien a {
+    font-size: 10px;
+  }
+  .card h5 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .card span {
+    font-size: 12px;
+  }
+  .box-2,
+  span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title1 {
+    width: 50%;
+  }
+}
